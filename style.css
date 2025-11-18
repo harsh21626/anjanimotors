@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #fdfdfd;
+    color: #333;
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(120deg, #4f46e5, #6d28d9);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.logo span {
+    color: #facc15;
+}
+
+.hero {
+    margin: auto;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.hero h1 span {
+    color: #facc15;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #facc15;
+    color: #333;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.section {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+
+.skills-grid, .project-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.skill, .project-card {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+    background: #111;
+    color: #ddd;
+}
